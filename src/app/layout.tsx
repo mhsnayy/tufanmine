@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Halil & Zeynep",
+  title: "Tufan & Mine",
   description: "Digital Album",
 };
 
