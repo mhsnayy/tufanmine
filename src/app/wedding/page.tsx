@@ -20,8 +20,8 @@ export default function WeddingPage() {
         <main className={`min-h-screen bg-neutral-950 flex flex-col items-center justify-center relative overflow-hidden ${inter.variable} ${playfair.variable}`}>
 
             {/* --- Atmosferik Arka Plan (Ana sayfayla tutarlılık için) --- */}
-            <div className="absolute top-[-20%] left-[-10%] w-[500px] h-[500px] bg-purple-900/10 rounded-full blur-[120px] pointer-events-none z-0" />
-            <div className="absolute bottom-[-20%] right-[-10%] w-[500px] h-[500px] bg-blue-900/10 rounded-full blur-[120px] pointer-events-none z-0" />
+            <div className="absolute top-[-20%] left-[-10%] w-125 h-125 bg-purple-900/10 rounded-full blur-[120px] pointer-events-none z-0" />
+            <div className="absolute bottom-[-20%] right-[-10%] w-125 h-125 bg-blue-900/10 rounded-full blur-[120px] pointer-events-none z-0" />
 
             {/* --- Merkez İçerik --- */}
             <div className="z-10 flex flex-col items-center text-center px-6">
@@ -34,7 +34,7 @@ export default function WeddingPage() {
                     className="space-y-4"
                 >
                     <h1 className="text-5xl md:text-7xl font-playfair text-white tracking-tight">
-                        Halil & Zeynep
+                        Tufan & Mine
                     </h1>
 
                     <div className="flex items-center justify-center gap-3">
@@ -61,21 +61,7 @@ export default function WeddingPage() {
                     </div>
                 </motion.div>
 
-                {/* Geri Dön Butonu */}
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 1, duration: 1 }}
-                    className="mt-16"
-                >
-                    <Link
-                        href="/"
-                        className="group flex items-center gap-2 text-neutral-500 hover:text-white transition-colors duration-300 text-sm tracking-wider uppercase font-light"
-                    >
-                        <span className="group-hover:-translate-x-1 transition-transform duration-300">←</span>
-                        Ana Sayfaya Dön
-                    </Link>
-                </motion.div>
+
 
             </div>
         </main>
